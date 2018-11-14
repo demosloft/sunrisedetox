@@ -1,0 +1,229 @@
+.container {
+  max-width: 1210px;
+}
+
+.top-header {
+  background: #395c86;
+  padding: 14px 0;
+}
+
+.top-header p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar.navbar-light .container-fluid {
+  max-width: 1210px;
+}
+
+.navbar.navbar-light {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.hero-banner-wrapper {
+  background: url('../../assets/img/hero-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.hero-text-outer {
+  background: rgba(0,0,0,.5);
+  padding: 40px;
+  max-width: 680px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero-text-outer h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 50px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero-tagline ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.hero-tagline ul {
+  margin: 0;
+}
+
+.hero-tagline {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.safe-comfortable-section {
+  padding: 50px 0;
+}
+
+.sunrise-state-map {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.sunrise-state-map img {
+  position: relative;
+}
+
+h2.section-title {
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+  font-weight: 500;
+  margin: 0 0 40px 0;
+}
+
+.safe-comfortable-section .sub-title {
+  text-align: center;
+  margin: 0 0 30px;
+  font-size: 20px;
+  color: #395c86;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.facility-outer .title br {
+  display: none;
+}
+
+.facility-outer .title {
+  font-size: 24px;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.facility-inner br {
+  display: none;
+}
+
+.facility-inner .table-responsive {
+  overflow-x: inherit;
+}
+
+.safe-comfortable-section .section-title {
+  margin-bottom: 13px;
+}
+
+.our-client-section {
+  padding: 50px 0;
+}
+
+.our-client-inner img {
+  max-height: 110px;
+}
+
+.our-client-inner {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -1px 5px 10px rgba(0,0,0,0.10);
+  border: 1px solid rgba(0,0,0,0.10);
+}
+
+.testimonial-section {
+  background: #395c86;
+  padding: 50px 0;
+}
+
+.testimonial-section .section-title {
+  color: #fff;
+}
+
+.testimonial-inner p {
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  max-width: 1024px;
+  margin: 30px auto 20px;
+  line-height: 28px;
+}
+
+.testimonial-inner h5 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  margin: 0;
+}
+
+.testimonial-inner > img {
+  max-width: 85px;
+}
+
+.product-slider-section {
+  background: #395c86;
+  padding: 50px 0;
+}
+
+.why-sunrise-section {
+  padding: 50px 0;
+}
+
+.why-sunrise-point ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.why-sunrise-point ul li strong {
+  font-weight: normal;
+}
+
+.why-sunrise-point ul li {
+  font-size: 18px;
+  position: relative;
+  padding: 0 0 15px 42px;
+}
+
+.why-sunrise-point ul li br {
+  display: none;
+}
+
+.why-sunrise-point ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.site-footer {
+  background: #222222;
+  padding: 50px 0;
+}
+
