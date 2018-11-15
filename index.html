@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>sunrisedetox.info</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/flexslider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
 </head>
@@ -18,32 +20,105 @@
                 <p>Most Major Insurance Accepted. Call to Have Yours Verified: <strong>(508) 581-5225</strong></p>
             </div>
         </div>
-        <nav class="navbar navbar-light navbar-expand-md">
-            <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home&nbsp;</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Detox Process </a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About Us </a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Payment Options</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
-                    </ul>
-            </div>
-            </div>
-        </nav>
-    </header>
-    <section class="hero-banner-wrapper">
-        <div class="container">
-            <div class="hero-text-outer">
-                <h1>Over 30,000 People Detoxed from Drugs and Alcohol Since 2003</h1>
-                <div class="hero-tagline">
-                    <ul>
-                        <li><a href="http://www.inc.com/profile/sunrise-detox-centers" target="_blank"><img src="assets/img/inc5000_logo-300x300.png"></a></li>
-                        <li><a href="http://www.bbb.org/south-east-florida/business-reviews/rehabilitation-services/sunrise-detoxification-center-in-lake-worth-fl-92008501" target="_blank"><img src="assets/img/bbb_logo.png"></a></li>
-                        <li><a href="#"><img src="assets/img/jcaho_goldseal_seal.png"></a></li>
-                    </ul>
+        <div class="header-second">
+            <div class="container clearfix">
+                <div class="logo-container pull-left"><a href="#"><img src="assets/img/logo.png"></a></div>
+                <div class="pull-right header-right-logo text-right">
+                    <div class="d-flex align-items-center">
+                        <h5>Over 30,000 People Detoxed from Drugs and Alcohol Since 2003<br></h5>
+                        <div class="header-brand-logo">
+                            <ul>
+                                <li><a href="http://www.inc.com/profile/sunrise-detox-centers" target="_blank"><img src="assets/img/inc5000_logo-300x300.png"></a></li>
+                                <li><a href="http://www.bbb.org/south-east-florida/business-reviews/rehabilitation-services/sunrise-detoxification-center-in-lake-worth-fl-92008501" target="_blank"><img src="assets/img/bbb_logo.png"></a></li>
+                                <li><a href="#"><img src="assets/img/jcaho_goldseal_seal.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </header>
+    <section class="safe-comfortable-section">
+        <div class="container">
+            <h2 class="section-title">Safe, Comfortable Inpatient Medical Detox<br></h2>
+            <h3 class="sub-title">See the Facility Closest To You<br></h3>
+            <div class="comfortable-map-outer row">
+                <div class="col-4">
+                    <div class="comfortable-map-timing">
+                        <h4><a href="#"><br>Massachusetts&nbsp;<br><br><br></a></h4>
+                        <ul>
+                            <li class="row">
+                                <div class="col-8"><a href="#">Stirling (south of Morristown)<br></a></div>
+                                <div class="col-4">
+                                    <p><br>(508) 581-5225<br><br><br></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comfortable-map-timing">
+                        <h4><a href="#"><br>New Jersey<br></a></h4>
+                        <ul>
+                            <li class="row">
+                                <div class="col-8"><a href="#">Stirling (south of Morristown)<br></a></div>
+                                <div class="col-4">
+                                    <p>(908) 290-0389<br></p>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Toms River<br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br>(732) 649-1224<br><br><br></p>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Cherry Hill<br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br>(856) 672-3659<br><br><br></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				<div class="right-col col-4 text-center">
+					<div class="sunrise-stae-map"><img src="assets/img/sunrise-state-map-b.png" id="image"></div>
+				</div>
+                <div class="right-col col-4">
+                    <div class="comfortable-map-timing">
+                        <h4><a href="#"><br>Georgia<br><br><br></a></h4>
+                        <ul>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Alpharetta (north of Atlanta)<br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br>(678) 820-6480<br><br><br></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comfortable-map-timing">
+                        <h4><a href="#"><br>Florida<br><br><br><br><br></a></h4>
+                        <ul>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Orlando<br><br><br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br>(407) 930-9899<br><br><br><br><br></p>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Lake Worth<br><br><br><br><br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br><br>(561) 402-7316<br><br><br><br><br><br><br></p>
+                                </div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8"><a href="#"><br>Ft. Lauderdale<br><br><br><br><br><br><br></a></div>
+                                <div class="col-4">
+                                    <p><br>(954) 870-4838<br><br><br><br><br><br><br></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
             </div>
         </div>
     </section>
@@ -69,99 +144,100 @@
             </div>
         </div>
     </section>
-    <section class="testimonial-section">
-        <div class="container">
-            <div class="testimonial-inner text-center"><img src="assets/img/rating.png">
-                <p>"I have to be honest, when I was told that I had to go to detox I was so scared. I didn’t know what the hazards were of stopping on my own. After talking to other friends who had gone through the same thing I knew that I couldn’t do it
-                    alone. The detox protocol that I was put on probably saved my life, I’m so grateful to have come to Sunrise Detox, what a wonderful crew of nurses, techs, cooks, assistants and everyone that I could have left out. Bless you all and
-                    thank you."<br></p>
-                <h5>Lissa<br></h5>
-            </div>
-        </div>
-    </section>
-    <section class="safe-comfortable-section">
-        <div class="container">
-            <h2 class="section-title">Safe, Comfortable Inpatient Medical Detox<br></h2>
-            <h3 class="sub-title">See the Facility Closest To You<br></h3>
-            <div class="row">
-                <div class="col">
-                    <div class="sunrise-state-map"><img src="assets/img/sunrise-state-map-b.png"></div>
-                </div>
-                <div class="col">
-                    <div class="left-facility facility-outer"><a href="#" class="title"><br>Florida<br><br><br><br><br></a>
-                        <div class="facility-inner">
-                            <div class="table-responsive">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr></tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><br><a href="#"><br>Orlando<br><br><br><br><br><br></a></td>
-                                            <td><br>(407) 930-9899<br><br><br><br><br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td><br><a href="#"><br>Lake Worth<br><br><br><br><br><br><br><br></a></td>
-                                            <td><br>(561) 402-7316<br><br><br><br><br><br><br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td><br><a href="#"><br>Ft. Lauderdale<br><br><br><br><br><br><br><br><br><br></a></td>
-                                            <td><br>(954) 870-4838<br><br><br><br><br><br><br><br><br><br></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="left-facility facility-outer"><a href="#" class="title"><br>Georgia<br><br><br></a>
-                        <div class="facility-inner">
-                            <div class="table-responsive">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr></tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><br><a href="#"><br>Alpharetta (north of Atlanta)<br><br><br><br></a></td>
-                                            <td><br>(678) 820-6480<br><br><br><br></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="left-facility facility-outer"><a href="#" class="title"><br>New Jersey<br></a>
-                        <div class="facility-inner">
-                            <div class="table-responsive">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr></tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><br><a href="#"><br>Stirling (south of Morristown)<br></a></td>
-                                            <td><br>(908) 290-0389<br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td><br><a href="#"><br>Toms River<br><br><br></a></td>
-                                            <td><br>(732) 649-1224<br><br><br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td><br><a href="#"><br>Cherry Hill<br><br><br><br><br></a></td>
-                                            <td><br>(856) 672-3659<br><br><br><br><br><br></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="product-slider-section">
         <div class="container">
-            <div class="product-slider-inner text-center"><img src="assets/img/1-sunrise%20-%20cherry%20hill195-940x400.jpg"></div>
+            <div class="product-slider-inner text-center"><div id="slider" class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="assets/img/1-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/2-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/3-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/4-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/5-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/6-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/7-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/8-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/9-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/10-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/11-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/12-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/13-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/14-sunrise.jpg" />
+    </li>
+   </ul>
+</div>
+<div id="carousel" class="flexslider slider-thumbnail">
+  <ul class="slides">
+     <li>
+      <img src="assets/img/1-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/2-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/3-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/4-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/5-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/6-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/7-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/8-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/9-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/10-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/11-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/12-sunrise.jpg" />
+    </li>
+    <li>
+      <img src="assets/img/13-sunrise.jpg" />
+    </li>
+      <li>
+      <img src="assets/img/14-sunrise.jpg" />
+    </li>
+  </ul>
+</div></div>
         </div>
     </section>
     <section class="why-sunrise-section">
@@ -183,13 +259,57 @@
             </div>
         </div>
     </section>
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial-inner text-center"><img src="assets/img/rating.png">
+                <p>"I have to be honest, when I was told that I had to go to detox I was so scared. I didn’t know what the hazards were of stopping on my own. After talking to other friends who had gone through the same thing I knew that I couldn’t do it
+                    alone. The detox protocol that I was put on probably saved my life, I’m so grateful to have come to Sunrise Detox, what a wonderful crew of nurses, techs, cooks, assistants and everyone that I could have left out. Bless you all and
+                    thank you."<br></p>
+                <h5>Lissa<br></h5>
+            </div>
+        </div>
+    </section>
     <footer class="site-footer">
         <div class="container">
-            <div class="text-center"><img src="assets/img/white-logo.png"></div>
+            <div class="text-center"><img src="assets/img/white-logo.png">
+                <p>© Copyright Sunrise Detox 2018.&nbsp;All rights reserved</p>
+            </div>
         </div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/hammer.min.js"></script>
+    <script src="https://unpkg.com/jquery-hammerjs@2.0.0"></script>
+    <script src="assets/js/imgViewer.js"></script>
+    <script src="assets/js/imgNotes.js"></script>
+    <script src="assets/js/custom.js"></script>
+	<script type="text/javascript">
+		;(function($) {
+			var notes = [{x: "0.520", y:"0.650", note:'\<a href="http://sunrisedetox.info/ga/atlanta/" target="_blank">Atlanta</a>'}, 
+						{x: "0.595", y:"0.805", note:'\<a href="http://sunrisedetox.info/fl/orlando/" target="_blank">Orlando</a>'},
+						{x: "0.620", y:"0.880", note:'\<a href="http://sunrisedetox.info/fl/lake-worth/" target="_blank">Lake Worth</a>'},
+						{x: "0.650", y:"0.930", note:'\<a href="http://sunrisedetox.info/fl/ft-lauderdale/" target="_blank">FT Lauderdale</a>'},
+						{x: "0.860", y:"0.370", note:'\<a href="http://sunrisedetox.info/nj/morristown/" target="_blank">Morristown</a>'},
+						{x: "0.890", y:"0.450", note:'\<a href="http://sunrisedetox.info/nj/toms-river/" target="_blank">Toms River</a>'},
+						{x: "0.840", y:"0.500", note:'\<a href="http://sunrisedetox.info/nj/cherry-hill/" target="_blank">Cherry Hill</a>'}
+						];
+
+				$(window).on('load', function(){
+                    
+                    cust_onEdit = function( ev, elem) {
+						var $elem = $(elem);
+						return $('<div id="NoteDialog"></div>');
+                    };
+					var $img = $("#image").imgNotes({ onEdit: cust_onEdit });
+					var widg = $img.data().wgmImgNotes;
+					console.log('widg: '+widg);
+					$img.imgNotes("import", notes);
+				});
+		})(jQuery);
+		</script>
+	</script>
 </body>
 
 </html>
