@@ -7,8 +7,10 @@
     <title>sunrisedetox.info</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/flexslider.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/imgNotes.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
 </head>
@@ -17,12 +19,12 @@
     <header class="site-header">
         <div class="top-header">
             <div class="container">
-                <p>Most Major Insurance Accepted</p>
+                <p>Most Major Insurance Accepted.</p>
             </div>
         </div>
         <div class="header-second">
             <div class="container clearfix">
-                <div class="logo-container pull-left"><a href="#"><img src="assets/img/logo.png"></a></div>
+                <div class="logo-container pull-left"><a href="index.html"><img src="assets/img/logo.png"></a></div>
                 <div class="pull-right header-right-logo text-right">
                     <div class="d-flex align-items-center">
                         <h5>Over 30,000 People Detoxed from Drugs and Alcohol Since 2003</h5>
@@ -43,12 +45,12 @@
             <h2 class="section-title">Safe, Comfortable Inpatient Medical Detox</h2>
             <h3 class="sub-title">See the Facility Closest To You</h3>
             <div class="comfortable-map-outer row">
-                <div class="col-4">
+                <div class="col-4 map-timing-col">
                     <div class="comfortable-map-timing">
-                        <h4><a href="#">Massachusetts&nbsp;</a></h4>
+                        <h4><a href="#">Massachusetts</a></h4>
                         <ul>
                             <li class="row">
-                                <div class="col-8"><a href="#">Stirling (south of Morristown)</a></div>
+                                <div class="col-8"><a href="#">Millbury</a></div>
                                 <div class="col-4">
                                     <p>(508) 581-5225</p>
                                 </div>
@@ -56,7 +58,7 @@
                         </ul>
                     </div>
                     <div class="comfortable-map-timing">
-                        <h4><a href="#">New Jersey</a></h4>
+                        <h4><a href="nj.html">New Jersey</a></h4>
                         <ul>
                             <li class="row">
                                 <div class="col-8"><a href="#">Stirling (south of Morristown)</a></div>
@@ -79,17 +81,19 @@
                         </ul>
                     </div>
                 </div>
-				<div class="right-col col-4 text-center">
-					<div class="sunrise-stae-map"><img src="assets/img/sunrise-state-map-b.png" id="image"></div>
-				</div>
-                <div class="right-col col-4">
+                <div class="map-middle-col col-4">
+                    <div class="map-outer-div text-center">
+                        <div class="sunrise-state-map"><img src="assets/img/sunrise-state-map-b.png" id="image"></div>
+                    </div>
+                </div>
+                <div class="right-col col-4 map-timing-col">
                     <div class="comfortable-map-timing">
                         <h4><a href="#">Georgia</a></h4>
                         <ul>
                             <li class="row">
-                                <div class="col-8"><a href="#">Millbury</a></div>
+                                <div class="col-8"><a href="#">Alpharetta (north of Atlanta)</a></div>
                                 <div class="col-4">
-                                    <p>(508) 581-5225</p>
+                                    <p>(678) 820-6480</p>
                                 </div>
                             </li>
                         </ul>
@@ -118,7 +122,6 @@
                         </ul>
                     </div>
                 </div>
-               
             </div>
         </div>
     </section>
@@ -250,9 +253,9 @@
                 <div class="col">
                     <div class="why-sunrise-point">
                         <ul>
-                            <li><img src="assets/img/information.png"><strong>Detox Safely:&nbsp; Detoxing from drugs and alcohol by yourself is agonizing and can be fatal. Medical supervision keeps you safe.</strong></li>
-                            <li><img src="assets/img/information.png"><strong>Stay in Comfort:</strong>&nbsp;Relax in a pillow-top bed, your own TV, massage and chiropractic therapy, and healthy chef-prepared meals.</li>
-                            <li><img src="assets/img/information.png"><strong>Maintain Confidentiality:</strong>&nbsp; Your personal decision whether to tell people you're here is always respected.</li>
+                            <li><img src="assets/img/information.png"><strong>Detox Safely: Detoxing from drugs and alcohol by yourself is agonizing and can be fatal. Medical supervision keeps you safe.</strong></li>
+                            <li><img src="assets/img/information.png"><strong>Stay in Comfort:</strong>Relax in a pillow-top bed, your own TV, massage and chiropractic therapy, and healthy chef-prepared meals.</li>
+                            <li><img src="assets/img/information.png"><strong>Maintain Confidentiality:</strong> Your personal decision whether to tell people you're here is always respected.</li>
                         </ul>
                     </div>
                 </div>
@@ -272,7 +275,7 @@
     <footer class="site-footer">
         <div class="container">
             <div class="text-center"><img src="assets/img/white-logo.png">
-                <p>© Copyright Sunrise Detox 2018.&nbsp;All rights reserved</p>
+                <p>© Copyright Sunrise Detox <span class="currentyear"></span>.All rights reserved</p>
             </div>
         </div>
     </footer>
@@ -285,31 +288,57 @@
     <script src="assets/js/imgViewer.js"></script>
     <script src="assets/js/imgNotes.js"></script>
     <script src="assets/js/custom.js"></script>
-	<script type="text/javascript">
-		;(function($) {
-			var notes = [{x: "0.520", y:"0.650", note:'\<a href="http://sunrisedetox.info/ga/atlanta/" target="_blank">Atlanta</a>'}, 
+	<script>
+	
+var notes = [{x: "0.520", y:"0.650", note:'\<a href="http://sunrisedetox.info/ga/atlanta/" target="_blank">Atlanta</a>'}, 
 						{x: "0.595", y:"0.805", note:'\<a href="http://sunrisedetox.info/fl/orlando/" target="_blank">Orlando</a>'},
 						{x: "0.620", y:"0.880", note:'\<a href="http://sunrisedetox.info/fl/lake-worth/" target="_blank">Lake Worth</a>'},
 						{x: "0.650", y:"0.930", note:'\<a href="http://sunrisedetox.info/fl/ft-lauderdale/" target="_blank">FT Lauderdale</a>'},
+						{x: "0.730", y:"0.235", note:'\<a href="http://sunrisedetox.info/nj/millbury/" target="_blank">Millbury</a>'},
 						{x: "0.860", y:"0.370", note:'\<a href="http://sunrisedetox.info/nj/morristown/" target="_blank">Morristown</a>'},
 						{x: "0.890", y:"0.450", note:'\<a href="http://sunrisedetox.info/nj/toms-river/" target="_blank">Toms River</a>'},
 						{x: "0.840", y:"0.500", note:'\<a href="http://sunrisedetox.info/nj/cherry-hill/" target="_blank">Cherry Hill</a>'}
 						];
+    
 
-				$(window).on('load', function(){
+				$(window).on('load',function() {
                     
                     cust_onEdit = function( ev, elem) {
 						var $elem = $(elem);
-						return $('<div id="NoteDialog"></div>');
+						$('#NoteDialog').remove();
+						return $('<div id="NoteDialog"></div>').dialog({
+							title: "Note Editor",
+							resizable: false,
+							modal: true,
+                            height: "300",
+							width: "450",
+							position: { my: "left bottom", at: "right top", of: elem},
+							buttons: {
+								"Save": function() {
+									var txt = $('textarea', this).val();
+									$elem.data("note").note = txt;
+									$(this).dialog("close");
+								},
+								"Delete": function() {
+									$elem.trigger("remove");
+									$(this).dialog("close");
+								},
+								Cancel: function() {
+									$(this).dialog("close");
+								}
+							},
+								open: function() {
+									$(this).css("overflow", "hidden");
+									var textarea = $('<textarea id="txt" style="height:100%; width:100%;">');
+									$(this).html(textarea);
+									textarea.val($elem.data("note").note);
+								}
+                        });
                     };
 					var $img = $("#image").imgNotes({ onEdit: cust_onEdit });
 					var widg = $img.data().wgmImgNotes;
-					console.log('widg: '+widg);
 					$img.imgNotes("import", notes);
-				});
-		})(jQuery);
-		</script>
-	</script>
+				});</script>
 </body>
 
 </html>
